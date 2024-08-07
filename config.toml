@@ -1,0 +1,8 @@
+TEST_KEY="foo"
+SECRET_KEY="config"
+
+[theme]
+primaryColor="#c53737"
+backgroundColor="#224ba0"
+secondaryBackgroundColor="#00020a"
+textColor="#ffffff"

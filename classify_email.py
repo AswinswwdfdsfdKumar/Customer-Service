@@ -6,7 +6,7 @@ import joblib
 from fuzzywuzzy import process
 import argparse
 
-file_path = r"C:\Users\Aswin Kumar\Documents\RPA .xlsx"
+file_path = "RPA .xlsx"
 df_responses = pd.read_excel(file_path, sheet_name='Predifined Script', 
                              engine='openpyxl')
 predefined_responses = {}

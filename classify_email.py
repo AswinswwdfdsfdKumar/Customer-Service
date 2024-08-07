@@ -57,18 +57,7 @@ def classify_email(text):
 
 # Main function for Streamlit app
 def main():
-    st.markdown(
-        """
-        <style>
-        .reportview-container {
-            background-color: #e0f7fa;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-
-    st.title('Email Inquiry Classifier')
+    st.title('Customer Service Bot')
 
     # Text input for the inquiry
     inquiry = st.text_input("Enter your inquiry:")

@@ -3,3 +3,5 @@ pandas==2.2.2
 matplotlib==3.5.1
 numpy==1.26.4
 scikit-learn==1.4.2
+fuzzywuzzy==0.18.0
+
